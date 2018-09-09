@@ -1,7 +1,7 @@
 import io from 'socket.io-client';
 import { v4 } from 'uuid';
 import Promise from 'bluebird';
-import { BeltlineLocalStorageDatabase } from './BeltlineLocalStorageDatabase';
+import { BeltlineLocalStorageDatabase } from 'beltline-local-storage-database';
 
 export default class Beltline {
   constructor(connectUrl) {
